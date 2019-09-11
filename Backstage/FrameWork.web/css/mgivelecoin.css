@@ -1,0 +1,14 @@
+
+
+.main{background:#eee; font-family:"Microsoft Yahei"; padding-bottom: 5rem;}
+.main h3{ font-size:1.2rem; color:#333; padding-left:1rem; height:4rem; line-height:4rem;}
+.main h3 span{ color:#f06868;}
+.main ul{ background:#fff; padding:1rem; margin-bottom:3rem;}
+.main li{height:4rem; line-height:4rem; font-size:1rem; color:#666; }
+.main input{ border:solid 1px #e6e6e6; height:2.9rem; width:80%; margin-left:3%;}
+.main li span{ display:inline-block; width:16%; text-align:right;}
+.main .btn{ width:23.5rem; height:3.2rem; line-height:3.2rem; display:block; margin:0 auto; text-align:center; font-size:1.4rem; color:#fff;background:url(../images/usersetting2.jpg) no-repeat 0 50%; background-size:100%;}
+
+
+
+

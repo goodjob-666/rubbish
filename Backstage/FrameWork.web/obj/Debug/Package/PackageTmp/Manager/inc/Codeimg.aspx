@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="Codeimg.aspx.cs" Inherits="FrameWork.web.inc.Codeimg" %>

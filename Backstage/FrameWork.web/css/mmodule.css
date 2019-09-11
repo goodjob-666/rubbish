@@ -1,0 +1,31 @@
+
+
+.g_module{background:url('../images/mmodule1.jpg') no-repeat;background-size:100%; height:15.8rem;}
+.module{ display:block; color:#fff; position:relative;margin-top:1rem;}
+.module h2{ left:12%; top:55%; position:absolute; font-size:1.4rem; }
+.module1{background:url('../images/mmodule2.jpg') no-repeat;background-size:100%; height:8.4rem;}
+.module2{background:url('../images/mmodule3.jpg') no-repeat;background-size:100%; height:8.4rem;}
+.module3{background:url('../images/mmodule4.jpg') no-repeat;background-size:100%; height:8.4rem;}
+
+.nav{ margin-top:1rem;}
+.nav .menu a{ display:inline-block; float:left; width:50%; color:#fff; background:#cccccc; font-size:1.4rem; line-height:3.5rem; height:3.5rem; text-align:center;}
+.nav .menu a.hover{ background:#4291e2;}
+
+.nav dl{ font-size:1.2rem;}
+.nav dt{ float:left; width:40%;padding:1rem 0; height:2.1rem;border-bottom:solid 1px #ededed;}
+.nav dd{ float:right; width:55%;padding:1rem 0;height:2.1rem;line-height:2.1rem;color:#444; padding-left:5%;border-bottom:solid 1px #ededed;}
+.nav dt img{ display:inline-block;  width:2.1rem; height:2.1rem;vertical-align:middle; margin-left:1rem; }
+.nav dt span{ vertical-align:middle;}
+.nav dt span.title{color:#444; margin-left:0.5rem; width:5rem; white-space:nowrap; overflow:hidden; display:inline-block;}
+.nav dt span.time{color:#999; float:right; line-height:2.1rem;}
+
+.nav ul{ font-size:1.2rem;}
+.nav li{ float:left; width:100%;padding:1rem 0; height:2.1rem;border-bottom:solid 1px #ededed;}
+.nav li img{ display:inline-block;  width:2.1rem; height:2.1rem;vertical-align:middle; margin-left:1rem; }
+.nav li span{ vertical-align:middle;}
+.nav li span.title{color:#444; margin-left:0.5rem; width:5rem; white-space:nowrap; overflow:hidden; display:inline-block;}
+.nav li span.time{color:#999; line-height:2.1rem; padding-left:0.5rem;}
+.nav li span.des{color:#999; float:right; line-height:2.1rem; float:right; margin-right:1rem;word-wrap:break-word;white-space:nowrap;}
+.nav .panel-footer{ display:none; !important;}
+
+.more { height:7rem;}

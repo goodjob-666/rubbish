@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3D89A80-19B8-4F6A-9381-8E15D41179AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrameWork</RootNamespace>
+    <AssemblyName>FrameWork</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\FrameWork.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\FrameWork.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\FrameWork.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\FrameWork.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dotnetCHARTING, Version=2.5.1634.15068, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FrameWork.web\bin\dotnetCHARTING.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessFacade.cs" />
+    <Compile Include="BusinessFacadeDLT.cs" />
+    <Compile Include="CacheOnline.cs" />
+    <Compile Include="CCPRestSDK.cs" />
+    <Compile Include="Charting.cs" />
+    <Compile Include="CheckUpdate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="Components\FileTxtLogsTable.cs" />
+    <Compile Include="Components\MessageBox.cs" />
+    <Compile Include="Components\Permission.cs" />
+    <Compile Include="Components\QueryParam.cs" />
+    <Compile Include="Components\sys_ApplicationsTable.cs" />
+    <Compile Include="Components\sys_ConfigDataTable.cs" />
+    <Compile Include="Components\sys_EventTable.cs" />
+    <Compile Include="Components\sys_FieldTable.cs" />
+    <Compile Include="Components\sys_FieldValueTable.cs" />
+    <Compile Include="Components\sys_FrameWorkInfoTable.cs" />
+    <Compile Include="Components\sys_GroupTable.cs" />
+    <Compile Include="Components\sys_ModuleExtPermissionTable.cs" />
+    <Compile Include="Components\sys_ModuleTable.cs" />
+    <Compile Include="Components\sys_NavigationUrl.cs" />
+    <Compile Include="Components\sys_OnlineTable.cs" />
+    <Compile Include="Components\sys_PermissionItem.cs" />
+    <Compile Include="Components\sys_RoleApplicationTable.cs" />
+    <Compile Include="Components\sys_RolePermissionTable.cs" />
+    <Compile Include="Components\sys_RolesTable.cs" />
+    <Compile Include="Components\sys_SystemInfoTable.cs" />
+    <Compile Include="Components\sys_UserTable.cs" />
+    <Compile Include="Components\sys_UserRolesTable.cs" />
+    <Compile Include="Components\tbVirtualWalletEntity.cs" />
+    <Compile Include="Data\AccessDataProvider.cs" />
+    <Compile Include="Data\DataProvider.cs" />
+    <Compile Include="Data\OracleDataProvider.cs" />
+    <Compile Include="Data\SqlDataProvider.cs" />
+    <Compile Include="DLTComponents\AccessTokenEntity.cs" />
+    <Compile Include="DLTComponents\sys_CommentEntity.cs" />
+    <Compile Include="DLTComponents\sys_LoginAuthorizeEntity.cs" />
+    <Compile Include="DLTComponents\sys_NewsEntity.cs" />
+    <Compile Include="DLTComponents\sys_PendingCommentEntity.cs" />
+    <Compile Include="DLTComponents\sys_PendingMattersEntity.cs" />
+    <Compile Include="DLTComponents\sys_StatisticalGroupingEntity.cs" />
+    <Compile Include="DLTComponents\tbActivityBlackEntity.cs" />
+    <Compile Include="DLTComponents\tbActivityEntity.cs" />
+    <Compile Include="DLTComponents\tbAppointArbitrationEntity.cs" />
+    <Compile Include="DLTComponents\tbChatMessageEntity.cs" />
+    <Compile Include="DLTComponents\tbDifficultyEntity.cs" />
+    <Compile Include="DLTComponents\tbFeedBackEntity.cs" />
+    <Compile Include="DLTComponents\tbFinancialDayEntity.cs" />
+    <Compile Include="DLTComponents\tbLevelOrderCancelEntity.cs" />
+    <Compile Include="DLTComponents\tbLevelOrderFeeEntity.cs" />
+    <Compile Include="DLTComponents\tbLevelOrderInfoEntity.cs" />
+    <Compile Include="DLTComponents\tbLevelOrderMessageEntity.cs" />
+    <Compile Include="DLTComponents\tbLevelOrderProgressEntity.cs" />
+    <Compile Include="DLTComponents\tbLevelOrderReJudgEntity.cs" />
+    <Compile Include="DLTComponents\tbLevelOrderRightEntity.cs" />
+    <Compile Include="DLTComponents\tbPostReportEntity.cs" />
+    <Compile Include="DLTComponents\tbServiceHelpEntity.cs" />
+    <Compile Include="DLTComponents\tbVirtualBankEntity.cs" />
+    <Compile Include="DLTComponents\tcUserStatEntity.cs" />
+    <Compile Include="DLTComponents\tlLoginEntity.cs" />
+    <Compile Include="DLTComponents\tlOperateEntity.cs" />
+    <Compile Include="DLTComponents\tsActivityEntity.cs" />
+    <Compile Include="DLTComponents\tsBankBlackEntity.cs" />
+    <Compile Include="DLTComponents\tsBankEntity.cs" />
+    <Compile Include="DLTComponents\tsBlackEntity.cs" />
+    <Compile Include="DLTComponents\tsCategoryEntity.cs" />
+    <Compile Include="DLTComponents\tsCompanyEntity.cs" />
+    <Compile Include="DLTComponents\tsCreditEvalEntity.cs" />
+    <Compile Include="DLTComponents\tsDictEntity.cs" />
+    <Compile Include="DLTComponents\tsFactionEntity.cs" />
+    <Compile Include="DLTComponents\tsGameEntity.cs" />
+    <Compile Include="DLTComponents\tsGroupEntity.cs" />
+    <Compile Include="DLTComponents\tsMemberEntity.cs" />
+    <Compile Include="DLTComponents\tsMoneyEntity.cs" />
+    <Compile Include="DLTComponents\tsNoticeEntity.cs" />
+    <Compile Include="DLTComponents\tsRightLockEntity.cs" />
+    <Compile Include="DLTComponents\tsSerialNoEntity.cs" />
+    <Compile Include="DLTComponents\tsServerEntity.cs" />
+    <Compile Include="DLTComponents\tsSMSPlatEntity.cs" />
+    <Compile Include="DLTComponents\tsSubUserEntity.cs" />
+    <Compile Include="DLTComponents\tsSysParamEntity.cs" />
+    <Compile Include="DLTComponents\tsUser1Entity.cs" />
+    <Compile Include="DLTComponents\tsUserEntity.cs" />
+    <Compile Include="DLTComponents\tsUserTokenEntity.cs" />
+    <Compile Include="DLTComponents\tsZoneEntity.cs" />
+    <Compile Include="DLTComponents\tsZoneServerEntity.cs" />
+    <Compile Include="DLTComponents\tbOrdersEntity.cs" />
+    <Compile Include="DLTComponents\tbMoneyChangeEntity.cs" />
+    <Compile Include="DLTComponents\tsUserZoneServerEntity.cs" />
+    <Compile Include="DLTComponents\tbRechargeEntity.cs" />
+    <Compile Include="DLTComponents\tbImgEntity.cs" />
+    <Compile Include="DLTComponents\tbGiveEntity.cs" />
+    <Compile Include="DLTComponents\tsRightLockAutoEntity.cs" />
+    <Compile Include="DLTComponents\tbMobileTokenEntity.cs" />
+    <Compile Include="DLTComponents\tsModuleEntity.cs" />
+    <Compile Include="DLTComponents\tbZhanKengOrders.cs" />
+    <Compile Include="DLTComponents\tbQuestionsEntity.cs" />
+    <Compile Include="DLTComponents\tbSubjectEntity.cs" />
+    <Compile Include="DLTComponents\tbAlbumEntity.cs" />
+    <Compile Include="DLTComponents\tbFieldsEntity.cs" />
+    <Compile Include="DLTComponents\tbValuesEntity.cs" />
+    <Compile Include="DLTComponents\tbSubmissionEntity.cs" />
+    <Compile Include="DLTData\AccessDataProvider.cs" />
+    <Compile Include="DLTData\DataProvider.cs" />
+    <Compile Include="DLTData\SqlDataProvider.cs" />
+    <Compile Include="DLTData\SqlHelp.cs" />
+    <Compile Include="DLTData\SQLHelper.cs" />
+    <Compile Include="EventMessage.cs" />
+    <Compile Include="FileTxtLogs.cs" />
+    <Compile Include="FileUpLoadCommon.cs" />
+    <Compile Include="FrameSystemInfo.cs" />
+    <Compile Include="FrameWorkCache.cs" />
+    <Compile Include="FrameWorkLogin.cs" />
+    <Compile Include="FrameWorkMenuTree.cs" />
+    <Compile Include="FrameWorkOnline.cs" />
+    <Compile Include="FrameWorkOnlineCache.cs" />
+    <Compile Include="FrameWorkOnlineDataBase.cs" />
+    <Compile Include="FrameWorkPermission.cs" />
+    <Compile Include="FTPUpLoadFiles.cs" />
+    <Compile Include="GeetestLib.cs" />
+    <Compile Include="HttpWebCache.cs" />
+    <Compile Include="IAuthentication.cs" />
+    <Compile Include="IFrameWorkCache.cs" />
+    <Compile Include="IFrameWorkOnline.cs" />
+    <Compile Include="Image1.cs" />
+    <Compile Include="ImageHelper.cs" />
+    <Compile Include="PermissionPrincipal.cs" />
+    <Compile Include="sys_ModuleExtPermission_Cache.cs" />
+    <Compile Include="sys_Module_Cache.cs" />
+    <Compile Include="WebControls\AspNetPager.cs" />
+    <Compile Include="WebControls\FieldWebControls.cs" />
+    <Compile Include="WebControls\HeadMenuButtonItem.cs" />
+    <Compile Include="WebControls\HeadMenuWebControls.cs" />
+    <Compile Include="PermissionConfigLoad.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="WebControls\MultiListBox.cs" />
+    <Compile Include="WebControls\SubContainerControlDesigner.cs" />
+    <Compile Include="WebControls\TabOptionItem.cs" />
+    <Compile Include="WebControls\TaboptionItemCollection.cs" />
+    <Compile Include="WebControls\TabOptionWebControls.cs" />
+    <Compile Include="LdapAuthentication.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebControls\AspNetPagerDocs.xml" />
+    <EmbeddedResource Include="WebControls\Resource\moveAllLeft.gif" />
+    <EmbeddedResource Include="WebControls\Resource\moveAllLeft2.gif" />
+    <EmbeddedResource Include="WebControls\Resource\moveAllRight.gif" />
+    <EmbeddedResource Include="WebControls\Resource\moveAllRight2.gif" />
+    <EmbeddedResource Include="WebControls\Resource\moveLeft.gif" />
+    <EmbeddedResource Include="WebControls\Resource\moveLeft2.gif" />
+    <EmbeddedResource Include="WebControls\Resource\moveRight.gif" />
+    <EmbeddedResource Include="WebControls\Resource\moveRight2.gif" />
+    <EmbeddedResource Include="WebControls\Resource\MultiListBox.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\AspNetPager.resx">
+      <DependentUpon>AspNetPager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

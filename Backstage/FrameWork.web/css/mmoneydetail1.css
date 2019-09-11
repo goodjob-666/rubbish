@@ -1,0 +1,10 @@
+
+
+.main{background:#eee; font-family:"Microsoft Yahei"; padding-bottom: 5rem; margin-bottom:3rem;}
+.main .detail{height:3rem; line-height: 3rem; border-bottom:solid 1px #eaeaea; background:#fff; color:#999; }
+.main .label{display:inline-block; width:22%; font-size:1rem; color:#666; text-align:right;}
+.main .word{display:inline-block; width:76%;font-size:0.9rem;}
+.main .detail:first-child{ margin-top:1rem;}
+
+
+

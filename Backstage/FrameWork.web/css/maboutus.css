@@ -1,0 +1,24 @@
+
+/*头部开始 */
+.g_top{ height:4.3rem; background:#fff;  padding: 0 1rem; position:relative;}
+.g_top a{ display:inline-block; width:1.7rem;height:1.7rem; top:1.3rem; position:absolute;}
+.g_top h2{ text-align: center; font-size:1.4rem; color:#666; line-height: 4.3rem;}
+
+.main .banner{ height:18.55rem;background:url(../images/aboutus.jpg) no-repeat; background-size:100%;}
+
+.main{background:#eee; font-family:"Microsoft Yahei"; padding-bottom: 5rem;}
+.main ul{ background:#fff; margin-top:1.2rem; margin-bottom: 3rem;}
+.main li{height:4rem; padding:0 1rem; line-height:4rem; border-bottom:solid 1px #eaeaea;}
+.main li:last-child{border:0; }
+.main li span{font-size:1rem; color:#999; float:right; padding-right: 1rem;}
+.main li a{ display:block; width:100%; height:100%;font-size:1rem; color:#999;}
+.main img.ss{ width:1.5rem; height:1.5rem; vertical-align:middle; display:inline-block;}
+.main li span.red{color:#f06868;}
+
+.ewm{ margin:0 auto; width:10rem; height:10rem;}
+.ewm span{ display:block;font-size:1rem; color:#999; text-align:center; padding-top:0.5rem; }
+
+
+footer{ font-size:1rem; color:#999; position:absolute; bottom:1rem; text-align:center; left:25%; } 
+
+

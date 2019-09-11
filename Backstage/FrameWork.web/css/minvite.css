@@ -1,0 +1,15 @@
+
+
+.main{background:#eee; font-family:"Microsoft Yahei"; padding-bottom: 5rem;}
+.main .totalMoney{height:3.8rem; line-height: 3.8rem; font-size:1.4rem; color:#fff; text-align:center; background:#7c6f5f;}
+.main .totalMoney .label{ border-right:solid 1px #aea397; padding-right:0.8rem;}
+.main .totalMoney .money{ padding-left:0.5rem;}
+.main ul{ background:#fff; margin-top:1.2rem; margin-bottom: 3rem;}
+.main  li{  border-bottom:solid 1px #eaeaea;padding:1.5rem 1rem;}
+.main  li:last-child{border:0; } 
+.main  li img{ width:1.5rem; height:1.5rem; margin:0; display:inline-block; vertical-align: sub; padding-right:0.5rem; }
+.main  li span{font-size:1rem; color:#ccc; float:right; padding-right: 1rem;}
+.main  li a{ display:block; width:100%; font-size:1.2rem; color:#666;text-indent:1rem !important; }
+.main  li em{ display:inline-block;float:right;background:url(../images/jt_left.jpg) no-repeat 0 50%; margin-top:1.125rem; background-size:100%; width:0.7rem;height:1.25rem; }
+.bg{ background:#000; width:100%; height:100%; z-index:998;position:absolute; top:0 ;left:0; opacity: 0.3; filter:alpha(opacity=30); display:none;}
+.bg img{ width:20rem; height:16rem; position:absolute; z-index:999; right:1.8rem; top:0rem;}

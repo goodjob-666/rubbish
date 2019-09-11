@@ -1,0 +1,71 @@
+﻿/********************************************************************************
+    File:
+          tsActivityEntity.cs
+    Description:
+          活动实体类
+    Author:
+          DDBuildTools
+          http://FrameWork.supesoft.com
+    Finish DateTime:
+          2014/8/5 13:39:35
+    History:
+*********************************************************************************/
+using System;
+using System.Collections.Generic;
+using System.Text;
+using FrameWork;
+
+namespace DLT.Components
+{
+    ///<summary>
+    ///占坑订单坑位
+    ///</summary>
+    [Serializable]
+    public partial class tbZhanKengOrders
+    {
+        #region "Private Variables"
+        private DataTable_Action _DataTable_Action_;  // 操作方法 Insert:增加 Update:修改 Delete:删除
+
+        private String _Z_SeriaNo = "";
+        private String _O_SeriaNo = ""; 
+        private Int32 _ID = 0;
+        private Int32 _Pit = 0;
+       
+        #endregion
+
+        #region "Public Variables"
+        ///<summary>
+        /// 操作方法 Insert:增加 Update:修改 Delete:删除
+        ///</summary>
+        public DataTable_Action DataTable_Action_
+        {
+            set { this._DataTable_Action_ = value; }
+            get { return this._DataTable_Action_; }
+        }
+
+        public String O_SeriaNo
+        {
+            set { this._O_SeriaNo = value; }
+            get { return this._O_SeriaNo; }
+        }
+
+        public String Z_SeriaNo
+        {
+            set { this._Z_SeriaNo = value; }
+            get { return this._Z_SeriaNo; }
+        }
+
+        public Int32 ID
+        {
+            set { this._ID = value; }
+            get { return this._ID; }
+        }
+
+        public Int32 Pit
+        {
+            set { this._Pit = value; }
+            get { return this._Pit; }
+        }
+        #endregion
+    }
+}

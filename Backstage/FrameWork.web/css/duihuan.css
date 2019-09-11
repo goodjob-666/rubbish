@@ -1,0 +1,12 @@
+
+
+.main{background:#eee; padding-bottom:4rem;}
+.main h2{ font-size:1.2rem; color:#333; height:4.2rem; line-height:4.2rem; padding-left:1.5rem; }
+.main h2 span{ font-size:1.2rem; color:#f06868;}
+
+.main dl{ height:8.25rem; border-bottom:solid 1px #eaeaea; background:#fff;padding:1.5rem 1.5rem 0;}
+.main dt{ width:22%; height:6.4rem; display:inline-block; float:left;}
+.main dd{width:74%; display:inline-block; float:right;}
+.main h3{ font-size:1.2rem; color:#666; margin-bottom:1.8rem; float:left;}
+.main em{ float:right; font-size:1.2rem; color:#fab549;}
+.main a{ clear:both; display:inline-block; font-size:1.2rem; width:100%; height:3rem; background:#f06868;color:#fff; text-align:center; line-height:3rem; border-radius:0.5rem;}

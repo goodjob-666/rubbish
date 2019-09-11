@@ -1,0 +1,18 @@
+
+
+
+/*头部开始 */
+.main .yue{ height:3.75rem; line-height: 3.75rem; background:#fff; text-align: center;width:100%; margin-top: 1.4rem;}
+.main .yue .label{font-size:1rem; color:#666;border-right:solid 1px #e3e3e3;  padding-right:0.75rem; vertical-align:inherit;}
+
+.m-weixin-money{font-size:1.2rem; text-align:center; margin:2rem 0 1rem;color:#666; }
+.m-weixin-money .money{ color:#da5155;}
+.m-weixin-main .dec{ display:block; width:15rem; height:3rem; background:#da5155; font-size:1rem; color:#fff;  text-align:right; margin:1rem auto 0; padding-right:2rem; padding-top:0.5rem;}
+.m-weixin-main .ok{ display:none; width:15rem; height:3rem; background:#22ad38; font-size:1rem; color:#fff;  text-align:right; margin:1rem auto 0; padding-right:2rem; padding-top:0.5rem;}
+.m-weixin-code{width:15rem !important; border:solid 1px #ccc; padding:1rem; background:#fff; }
+.m-weixin-main .bg{background:url('../images/wxsys.png') no-repeat; background-size:100%; width:2.25rem; height:2.6rem; display:inline-block; float:left; margin-left:2rem;}
+.m-weixin-main .bgok{background:url('../images/wxok.png') no-repeat; background-size:100%; width:2.25rem; height:2.6rem; display:inline-block; float:left; margin-left:2rem;}
+.m-weixin-main .wd{ width:10rem; display:inline-block;}
+
+.m-weixin-header p{ text-align:center; font-size:1rem; color:#666; padding-top:2rem;}
+.m-weixin-header p span{color:#da5155;}

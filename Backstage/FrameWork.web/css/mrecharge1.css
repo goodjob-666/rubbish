@@ -1,0 +1,34 @@
+
+
+
+/*头部开始 */
+.main .yue{ height:3.75rem; line-height: 3.75rem; background:#fff; text-align: center;width:100%; margin-top: 1.4rem;}
+.main .yue .label{font-size:1rem; color:#666;border-right:solid 1px #e3e3e3;  padding-right:0.75rem; vertical-align:inherit;}
+.main .yue .money{font-size:1.6rem; color:#da5155;padding-left:0.5rem; vertical-align:sub; }
+
+.main .recharge{}
+.main .recharge .label{ padding-top: 1.75rem; padding-bottom: 0.8rem; border-bottom:solid 1px #dbdbdb;}
+.main .recharge .label1{ padding-left:1.5rem;}
+.main .recharge h2{ display:inline-block; color:#333; font-size:1.4rem; padding-right: 0.5rem; padding-left:1rem;}
+.main .recharge h3{ display:inline-block;color:#999; font-size:1rem;}
+.main .recharge .body{padding:1.25rem 1.5rem 0; font-size:1rem; color:#666;}
+.main .recharge .body div{ width:8.7rem; height:3rem; font-size:1.2rem; color:#666; text-align:center; line-height:3rem; border-radius:3rem; display:inline-block; border:solid 1px #e1e1e1; margin-right:0.65rem; margin-bottom:1rem; background:#fff;}
+.main .recharge .body div.last{ margin-right:0;}
+.main .recharge .body div.hover{color:#fff; background:#ff9c00;}
+.main .recharge .body span{ display:block; width:100%; height:3rem;font-size:1.2rem; color:#666;line-height:3rem; border-radius:3rem;border:solid 1px #e1e1e1; background:#fff;}
+.main .recharge .body span input{ width:85%; height:2rem;font-size:1.2rem; color:#666; line-height: 2.5rem; margin-left:1.5rem;padding-top:0.5rem;}
+.main ul{ background:#fff;}
+.main li{height:3.5rem; padding:0 1rem; line-height: 3.5rem; font-size:1.2rem; color:#666; }
+
+.main li:first-child{ border-bottom:solid 1px #eaeaea;}
+.main li img{ width:1.5rem; height:1.5rem; margin:0; display:inline-block; vertical-align: middle; padding-right:0.5rem;}
+.main li em{ display:inline-block; float:right;}
+.main li b{ display:inline-block;background:url(../images/nook.jpg) no-repeat 0 50%; margin-top:1rem; background-size:100%; width:1.5rem;height:1.5rem; }
+.main li.hover b{background:url(../images/ok.jpg) no-repeat 0 50%;background-size:100%;}
+
+.main .type{ height:10rem;}
+
+
+.ft{ position:fixed; bottom:0;  max-width:640px;height:3.5rem; width:100%;line-height: 3.5rem; color:#fff; text-align:center; background:#da5155; }
+.ft input{ display:block;font-size:1.2rem; color:#fff;height:3.5rem; width:100%;line-height: 3.5rem; border-radius:0; border:0; background:transparent; }
+.ft a{display:block;font-size:1.2rem; color:#fff;height:3.5rem; width:100%;line-height: 3.5rem; border-radius:0; border:0; background:transparent;}

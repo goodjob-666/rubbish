@@ -1,0 +1,85 @@
+.main{ margin-top:0.9rem; font-family:"Microsoft Yahei";background-size:100%; padding-bottom: 5rem;}
+.main dl{ margin-bottom: 0.5rem; padding:1rem;height:6rem; background:#fff;border-bottom: solid 1px #ededed;}
+.main dl .img{width:5rem;height:5rem; display:inline-block;}
+.main dt{float:left; }
+.main dd { float:left; margin-left: 1rem;width:23.5rem;}
+.main h3{font-size:1.2rem; }
+.main h3 a{color:#333;}
+.main h3 span{ color:#f06868; display:inline-block; margin-left:0.5rem;}
+.main h3 i{ display:inline-block; float:right; color:#999; font-size:1rem; width:5.5rem; text-align:center;}
+.main h3 i em.lose{background:url("../images/jiang1.png") no-repeat; background-size:100%;display:inline-block; width:1.4rem; height:1.4rem;     vertical-align:middle;}
+.main h3 i em.win{background:url("../images/jiang.png") no-repeat; background-size:100%;display:inline-block; width:1.4rem; height:1.4rem;     vertical-align:middle;}
+.main p{position:relative;}
+.main h3 em.ing{ display:inline-block; float:right; color:#f06868; text-align:center; }
+
+.main p span.content{ font-size:0.9rem; display:block; padding: 0.4rem 0;color:#666;}
+.main p span.time{ font-size:0.9rem; display:inline-block; width:70%; height:1.2rem; overflow:hidden;color:#999;}
+.main p a.btn{ width:5.5rem; display:block; height:1.8rem; line-height: 1.8rem; background:#f06868; color:#fff; font-size:1rem; text-align:center; float:right;}
+.main p a.remaintime{ position:absolute; right:0.1rem; bottom:0.1rem;font-size:0.9rem; color:#999; }
+.main p a em{color:#f06868;}
+
+.main p span.content1{ font-size:0.9rem; display:block; padding: 0.4rem 0;color:#999;}
+.main p span.time1{ font-size:0.9rem; display:inline-block;  height:1.8rem; line-height: 1.8rem; color:#666; float:left;}
+
+nav{ margin-top:1rem;}
+nav li{border:solid 1px #e7e7e7; border-left:0; border-right:0; float:left;height:3.2rem; line-height:3.2rem; width:50%; font-size:1.2rem; color:#999; text-align:center;background:#fff url("../images/liner.jpg") no-repeat 100% 50%; }
+nav li:last-child{ background:#fff;}
+nav li span{ margin-left:0.3rem;margin-top:0.2rem;  display:inline-block; width:1rem; height:1rem; vertical-align:text-middle; background:url("../images/jt_gray.jpg") no-repeat; background-size:100%;}
+
+nav li.hover{color:#f67f7f;}
+nav li.hover span{ background:url("../images/jt_red.jpg") no-repeat;background-size:100%;}
+
+/*  ±»»¸œÍ«È  */
+.detail-m{ margin-top:0.9rem; font-family:"Microsoft Yahei";background-size:100%; padding-bottom: 5rem;}
+.detail-m dl{ margin-bottom: 0.5rem; padding:1rem;height:4.5rem; background:#fff;}
+.detail-m dl .img{width:5rem;height:5rem; display:inline-block;}
+.detail-m dt{float:left; }
+.detail-m dd { float:left; margin-left: 1rem;width:23.5rem;}
+.detail-m h3{font-size:1rem;  }
+.detail-m h3 a{color:#333;}
+.detail-m h3 span{ color:#da5155; display:inline-block; margin-left:0.5rem;}
+.detail-m h3 i{ display:inline-block; float:right; color:#f06868; text-align:center; }
+.detail-m h3 i.ending{ width:5.5rem; color:#999;}
+.detail-m h3 i em.lose{background:url("../images/jiang1.png") no-repeat; background-size:100%;display:inline-block; width:1.4rem; height:1.4rem;   vertical-align:middle;}
+.detail-m h3 i em.win{background:url("../images/jiang.png") no-repeat; background-size:100%;display:inline-block; width:1.4rem; height:1.4rem;   vertical-align:middle;}
+.detail-m p{ position:relative;}
+.detail-m p span.content{ font-size:0.9rem; display:block; padding: 0.4rem 0;color:#666;}
+.detail-m p span.time{ font-size:0.9rem; display:inline-block; width:70%; height:1.2rem; overflow:hidden;color:#999;}
+.detail-m p a.btn{ width:5.5rem; display:block; height:1.8rem; line-height: 1.8rem; background:#f06868; color:#fff; font-size:1rem; text-align:center; float:right;}
+.detail-m p a.remaintime{ position:absolute; right:0.1rem; bottom:0.1rem;font-size:0.9rem; color:#999; }
+.detail-m p a em{color:#f06868;}
+.detail-m p span.content1{ font-size:0.9rem; display:block; padding: 0.4rem 0;color:#999;}
+.detail-m p span.time1{ font-size:0.9rem; display:inline-block;  height:1.8rem; line-height: 1.8rem; color:#666; float:left;}
+
+
+.detail-m .detail{height:3rem; line-height: 3rem; border-bottom:solid 1px #eaeaea; background:#fff; color:#999; }
+.detail-m .label{display:inline-block; width:22%; font-size:1rem; color:#666; text-align:right;}
+.detail-m .word{display:inline-block; width:76%;font-size:0.9rem;}
+.detail-m .word a{display: inline-block; width: 1.5rem; height: 1.5rem; margin-left:1rem;}
+.detail-m .word img{ margin-top:0.25rem;}
+.detail-m .word em{ color: #999;}
+
+.tijiao .btn1{ width:23.5rem; height:3.2rem; line-height:3.2rem; display:block; margin:0 auto; text-align:center; font-size:1.4rem; color:#fff;background:url(../images/usersetting2.png) no-repeat; background-size:100%; }
+
+
+.feedback_div{ display:none;}
+.OrderEnd_div{display:none; margin-top:1rem; border:0 !important;}
+.OrderQuestion_div{ padding-top:1rem;padding-left:10%; display:none;}
+.OrderQuestion_div span{ font-size:1rem; display:block; padding-left:1rem; border:solid 1px #ccc; height:2rem; line-height:2rem; width:80%; border-radius:2rem; text-align:center;}
+
+.g_OrderQuestion{display:none; }
+.g_OrderQuestion .bg{ position:absolute;left:0;top:0; width:100%; height:100%;background:#eee;z-index:99; }
+.g_OrderQuestion .tijiao{ position:absolute; z-index:990; width:100%;height:100%;top:50rem;}
+.g_OrderQuestion .tijiao textarea{display:block; width:100%; height:10rem; }
+.g_OrderQuestion .interval{ height:0.9rem; background:#eeeeee; width:100%;}
+
+.g_OrderQuestion .g_top{ position:absolute;top:0; left:0; z-index:990; width:100%; padding:0;}
+.g_OrderQuestion .g_top a{ padding-left:1rem;}
+.g_OrderQuestion .close { display:block; width: 1.7rem; height: 1.7rem;  float:right; position:absolute; right:0.8rem; top:0.3rem;  }
+.g_OrderQuestion .close:before, .g_OrderQuestion .close:after {  content: ''; position: absolute; top:1.7rem; right:1rem;  width: 1.7rem; height: 1px;background-color: #fff; -webkit-transform: rotate(45deg);transform: rotate(45deg);}
+.g_OrderQuestion .close:after {  -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+
+.btn2{ width:23.5rem; height:3.2rem; line-height:3.2rem; display:block; margin:0 auto; text-align:center; font-size:1.4rem; color:#fff;background:url(../images/usersetting2.png) no-repeat; background-size:100%; }
+
+

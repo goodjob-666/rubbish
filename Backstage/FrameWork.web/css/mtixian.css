@@ -1,0 +1,98 @@
+@charset "utf-8";
+/*格式化*/
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td, span, input, textarea {margin:0;padding:0;}
+body{ font-family:"Microsoft Yahei",Verdana,Arial,Helvetica,sans-serif; background:#eeeeee; font-size: 14px;} 
+li, ol { list-style:none; }
+ins { text-decoration:none; }
+i, em { font-style:normal; }
+a { text-decoration:none;font-family:"Microsoft Yahei";}
+a:hover { cursor:pointer; text-decoration:none;}
+a:active{star:expression(this.onFocus=this.blur());}
+:focus{outline:0;}
+.clear { clear:both; line-height:0px; overflow:hidden; zoom:1; font-size:0px; content:'.';}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+img{ padding:0; margin:0;}
+a img { border:none; }
+input,textarea{ border:none;font-family:"Microsoft Yahei"; }
+h1, h2, h3, h4, h5, h6{ font-weight:normal; font-size: 14px; }
+/*排版通用*/
+.f-mm{ margin-left:auto; margin-right:auto;}/*居中对齐*/
+.f-fl{ float:left;} /*左浮动*/
+.f-fr{ float:right;} /*右浮动*/
+.f-tr{ text-align:right;} /*右对齐*/
+.f-tl{ text-align:left;} /*左对齐*/
+.f-tc{ text-align:center;} /*中间对齐*/
+.f-pr{ position:relative;} /*定位*/
+.f-di{ display:inline;}
+
+.f_cb:after,.f_cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+.f_cb,.f_cbli li{zoom:1;} 
+.f_fl{ float:left;}
+.f_fr{ float:right;}
+.f_pr{ position: relative;}
+.f_pa{ position: absolute;}
+.f_csp{ cursor:pointer;}
+.f_oh{ overflow:hidden;}
+.f_fs1{ font-size:12px;}
+.f_fs2{ font-size:13px;}
+.f_fs3{ font-size:14px;}
+
+.f_fa{ font-family:Arial, Helvetica, sans-serif;}
+.f_cs1,.f_cs1 a{ color:#4cab0d;}
+.f_cs2,.f_cs2 a{ color:#e60012;}
+.f_cs3,.f_cs3 a{ color:#343434;}
+.f_cs4{ color:#fff;}
+.f_cs5{ color:#da5155;}
+
+.f_wb{ font-weight:bold;}
+.f_fwn{ font-weight:normal;}
+.f_tal{ text-align:left;}
+.f_tac{ text-align:center;}
+.f_tar{ text-align:right;}
+
+.f_db{ display:block;}
+.f_mt10{ margin-top:10px;}
+
+
+
+
+
+.wrap{ max-width:640px; min-width:320px;margin:0 auto; overflow:hidden; position:relative; background:#f0f2f1;} /*网站首页宽度*/
+.wrap img{ width:100%;display:block; margin:0 auto; max-width:560px;} 
+
+html {font-size: 10px; -webkit-text-size-adjust:none; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+@media screen and (min-width:320px){html{font-size:    10px;}}
+@media screen and (min-width:360px){html{font-size: 11.25px;}}
+@media screen and (min-width:375px){html{font-size: 11.7px;}}
+@media screen and (min-width:384px){html{font-size: 12px;}}
+@media screen and (min-width:480px){html{font-size:    15px;}}
+@media screen and (min-width:414px){html{font-size:  13px;}}
+@media screen and (min-width:560px){html{font-size:  17.5px;}}
+@media screen and (min-width:640px){html{font-size:    20px;}}
+
+
+@font-face
+{
+font-family: myFirstFont;
+src: url('../fonts/FZSHANGKJW.TTF')
+}
+
+/*头部开始 */
+.g_top{ height:4.3rem; background:#000; padding: 0 1rem; position:relative;}
+.g_top a{ display:inline-block; width:1.7rem;height:1.7rem; top:1.3rem; position:absolute;}
+.g_top h2{ text-align: center; font-size:1.8rem; color:#fff; line-height: 4.3rem;}
+
+/*头部开始 */
+
+.main{ margin-top:0.9rem; background:#eee; font-family:"Microsoft Yahei";background-size:100%; padding-bottom: 5rem; }
+
+.main .yue{ height:3.75rem; line-height: 3.75rem; background:#fff; margin-top: 1.4rem;padding:0 1.8rem; margin-bottom:1.2rem;}
+.main .yue .label{font-size:1rem; color:#666;border-right:solid 1px #e3e3e3;  padding-right:0.75rem; vertical-align:inherit;}
+.main .yue .money{font-size:1.6rem; color:#da5155;padding-left:0.5rem; vertical-align:sub; }
+
+.main .zone{ background:#fff; padding:1.2rem 1.8rem 2rem;}
+.main .zone div{margin-top:1rem;}
+.main .zone span{font-size:1rem; width:22%; display:inline-block; color:#666; text-align:right;}
+.main .zone .dropdown,.text{ width:76%; height:2.6rem; border:solid 1px #dedede;  font-size:1rem;}
+.main .zone .text{width:76%; height:2.6rem; display:inline-block; border:solid 1px #dedede;  font-size:1rem;}
+.main .btn{ width:73%; background:#da5155; color:#fff; height:3.5rem; border-radius:3.5rem;  line-height:3.5rem; margin:2rem auto 0; text-align:center; font-size:1.5rem; border-right:solid 0.1rem #b94145;border-bottom:solid 0.15rem #b94145;}
